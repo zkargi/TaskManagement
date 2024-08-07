@@ -1,0 +1,761 @@
+export const summary = {
+  totalTasks: 10,
+  last10Task: [
+    {
+      _id: "65c5f12ab5204a81bde866a9",
+      title: "Test task",
+      date: "2024-02-09T00:00:00.000Z",
+      priority: "high",
+      stage: "todo",
+      team: [
+        {
+          _id: "65c202d4aa62f32ffd1303cc",
+          name: "Zeynep Kargı",
+          title: "Administrator",
+          role: "Admin",
+          email: "admin@gmail.com",
+        },
+      ],
+      activities: [],
+      subTasks: [
+        {
+          title: "Task manager youtube tutorial",
+          date: "2024-02-09T00:00:00.000Z",
+          tag: "tutorial",
+          _id: "65c5f153b5204a81bde866c8",
+        },
+      ],
+      createdAt: "2024-02-09T09:32:26.574Z",
+      updatedAt: "2024-02-09T09:36:53.339Z",
+      __v: 1,
+    },
+    {
+      _id: "65c5d547660756f6fd453a7a",
+      title: "Duplicate - Duplicate - Review Code Changes",
+      date: "2024-02-09T00:00:00.000Z",
+      priority: "medium",
+      stage: "in progress",
+      team: [
+      ],
+      activities: [
+        {
+          type: "started",
+          activity: "Project started",
+          date: "2024-02-09T09:16:56.623Z",
+          by: "65c202d4aa62f32ffd1303cc",
+          _id: "65c5f18bb5204a81bde866d1",
+        },
+        {
+          type: "commented",
+          activity: "i like coding!!",
+          date: "2024-02-09T09:16:56.623Z",
+          by: "65c202d4aa62f32ffd1303cc",
+          _id: "65c5f19eb5204a81bde866dd",
+        },
+        {
+          type: "bug",
+          activity: "bug found",
+          date: "2024-02-09T09:16:56.623Z",
+          by: "65c202d4aa62f32ffd1303cc",
+          _id: "65c5f1abb5204a81bde866eb",
+        },
+      ],
+      subTasks: [
+        {
+          title: "Blog App Admin Dashboard",
+          date: "2024-02-08T00:00:00.000Z",
+          tag: "Website App",
+          _id: "65c3535476ed5c48f9440973",
+        },
+      ],
+      createdAt: "2024-02-09T07:33:27.590Z",
+      updatedAt: "2024-02-09T09:36:10.386Z",
+      __v: 4,
+    },
+    {
+      _id: "65c46026af6ec0118be9407a",
+      title: "Website Project Proposal Review",
+      date: "2024-02-07T00:00:00.000Z",
+      priority: "high",
+      stage: "todo",
+      team: [
+        {
+          _id: "65c202d4aa62f32ffd1303cc",
+          name: "Zeynep Kargı",
+          title: "Administrator",
+          role: "Admin",
+          email: "admin@gmail.com",
+        },
+      ],
+      activities: [
+        {
+          type: "assigned",
+          activity: "Test activity. Let's go!!!",
+          date: "2024-02-08T17:55:34.353Z",
+          by: "65c202d4aa62f32ffd1303cc",
+          _id: "65c5188be1585cfa650b79c4",
+        },
+        {
+          type: "in progress",
+          activity: "Project is progress. Hiope to fin=ish soon!!",
+          date: "2024-02-08T17:55:34.353Z",
+          by: "65c202d4aa62f32ffd1303cc",
+          _id: "65c518dce1585cfa650b79da",
+        },
+        {
+          type: "bug",
+          activity: "Bug found in the code. Kindly check and fixed ASAP!!!",
+          date: "2024-02-08T18:13:14.717Z",
+          by: "65c202d4aa62f32ffd1303cc",
+          _id: "65c51a5e8064df97d208b392",
+        },
+        {
+          type: "commented",
+          activity: "Nice work. Let's finished hard!!!",
+          date: "2024-02-08T18:13:14.717Z",
+          by: "65c202d4aa62f32ffd1303cc",
+          _id: "65c51af08064df97d208b3b0",
+        },
+      ],
+      subTasks: [
+        {
+          title: "Blog App Dashboard",
+          date: "2024-02-06T00:00:00.000Z",
+          tag: "Design",
+          _id: "65c352e776ed5c48f944095c",
+        },
+        {
+          title: "Blog App Admin Dashboard",
+          date: "2024-02-07T00:00:00.000Z",
+          tag: "Design",
+          _id: "65c3531476ed5c48f9440965",
+        },
+      ],
+      createdAt: "2024-02-08T05:01:26.983Z",
+      updatedAt: "2024-02-09T06:51:15.005Z",
+      __v: 8,
+    },
+    {
+      _id: "65c45fb6af6ec0118be94052",
+      title: "Task Manager Youtube Video",
+      date: "2024-02-11T00:00:00.000Z",
+      priority: "medium",
+      stage: "completed",
+      team: [
+      ],
+      activities: [
+        {
+          type: "completed",
+          activity: "Project completed!!",
+          date: "2024-02-08T18:13:14.717Z",
+          by: "65c202d4aa62f32ffd1303cc",
+          _id: "65c51b998064df97d208b3f9",
+        },
+      ],
+      subTasks: [
+        {
+          title: "Blog App Admin Dashboard",
+          date: "2024-02-08T00:00:00.000Z",
+          tag: "Website App",
+          _id: "65c3535476ed5c48f9440973",
+        },
+      ],
+      createdAt: "2024-02-08T04:59:34.826Z",
+      updatedAt: "2024-02-09T06:51:15.005Z",
+      __v: 3,
+    },
+    {
+      _id: "65c4586f0548279012f8c256",
+      title: "Bug Fixing",
+      date: "2024-02-07T00:00:00.000Z",
+      priority: "high",
+      stage: "todo",
+      team: [
+        {
+          _id: "65c202d4aa62f32ffd1303cc",
+          name: "Zeynep Kargı",
+          title: "Administrator",
+          role: "Admin",
+          email: "admin@gmail.com",
+        },
+      ],
+      activities: [
+        {
+          type: "commented",
+          activity: "Great!!!",
+          date: "2024-02-08T18:13:14.717Z",
+          by: "65c202d4aa62f32ffd1303cc",
+          _id: "65c51b678064df97d208b3d6",
+        },
+      ],
+      subTasks: [
+        {
+          title: "Check Login code and fix bugs asap",
+          date: "2024-02-08T00:00:00.000Z",
+          tag: "Bug Fixing",
+          _id: "65c46074af6ec0118be94094",
+        },
+      ],
+      createdAt: "2024-02-08T04:28:31.966Z",
+      updatedAt: "2024-02-09T06:51:15.005Z",
+      __v: 3,
+    },
+    {
+      _id: "65c3c457fb9c6768ce4bc31a",
+      title: "Duplicate - Website Project Proposal",
+      date: "2024-02-07T17:55:13.218Z",
+      priority: "high",
+      stage: "todo",
+      team: [
+        {
+          _id: "65c202d4aa62f32ffd1303cc",
+          name: "Zeynep Kargı",
+          title: "Administrator",
+          role: "Admin",
+          email: "admin@gmail.com",
+        },
+      ],
+      activities: [],
+      subTasks: [
+        {
+          title: "Blog App Dashboard",
+          date: "2024-02-06T00:00:00.000Z",
+          tag: "Design",
+          _id: "65c352e776ed5c48f944095c",
+        },
+        {
+          title: "Blog App Admin Dashboard",
+          date: "2024-02-07T00:00:00.000Z",
+          tag: "Design",
+          _id: "65c3531476ed5c48f9440965",
+        },
+      ],
+      createdAt: "2024-02-07T17:56:39.969Z",
+      updatedAt: "2024-02-09T06:51:15.005Z",
+      __v: 1,
+    },
+    {
+      _id: "65c3c439fb9c6768ce4bc308",
+      title: "Duplicate - Review Code Changes",
+      date: "2024-02-07T17:55:13.218Z",
+      priority: "medium",
+      stage: "in progress",
+      team: [
+      ],
+      activities: [],
+      subTasks: [
+        {
+          title: "Blog App Admin Dashboard",
+          date: "2024-02-08T00:00:00.000Z",
+          tag: "Website App",
+          _id: "65c3535476ed5c48f9440973",
+        },
+      ],
+      createdAt: "2024-02-07T17:56:09.174Z",
+      updatedAt: "2024-02-07T17:56:09.456Z",
+      __v: 1,
+    },
+    {
+      _id: "65c3c21f55ae9b2f7666e86c",
+      title: "Duplicate - Website Project Proposal",
+      date: "2024-02-07T17:46:56.040Z",
+      priority: "normal",
+      stage: "todo",
+      team: [
+        {
+          _id: "65c202d4aa62f32ffd1303cc",
+          name: "Zeynep Kargı",
+          title: "Administrator",
+          role: "Admin",
+          email: "admin@gmail.com",
+        },
+      ],
+      activities: [],
+      subTasks: [
+        {
+          title: "Blog App Dashboard",
+          date: "2024-02-06T00:00:00.000Z",
+          tag: "Design",
+          _id: "65c352e776ed5c48f944095c",
+        },
+        {
+          title: "Blog App Admin Dashboard",
+          date: "2024-02-07T00:00:00.000Z",
+          tag: "Design",
+          _id: "65c3531476ed5c48f9440965",
+        },
+      ],
+      createdAt: "2024-02-07T17:47:11.560Z",
+      updatedAt: "2024-02-07T17:47:11.972Z",
+      __v: 1,
+    },
+    {
+      _id: "65c352b376ed5c48f9440955",
+      title: "Review Code Changes",
+      date: "2024-02-05T00:00:00.000Z",
+      priority: "medium",
+      stage: "in progress",
+      team: [
+      ],
+      activities: [],
+      subTasks: [
+        {
+          title: "Blog App Admin Dashboard",
+          date: "2024-02-08T00:00:00.000Z",
+          tag: "Website App",
+          _id: "65c3535476ed5c48f9440973",
+        },
+      ],
+      createdAt: "2024-02-07T09:51:47.149Z",
+      updatedAt: "2024-02-07T09:54:28.645Z",
+      __v: 1,
+    },
+    {
+      _id: "65c351b976ed5c48f9440947",
+      title: "Website Project Proposal",
+      date: "2024-02-07T00:00:00.000Z",
+      priority: "high",
+      stage: "todo",
+      team: [
+        {
+          _id: "65c202d4aa62f32ffd1303cc",
+          name: "Zeynep Kargı",
+          title: "Administrator",
+          role: "Admin",
+          email: "admin@gmail.com",
+        },
+      ],
+      activities: [],
+      subTasks: [
+        {
+          title: "Blog App Dashboard",
+          date: "2024-02-06T00:00:00.000Z",
+          tag: "Design",
+          _id: "65c352e776ed5c48f944095c",
+        },
+        {
+          title: "Blog App Admin Dashboard",
+          date: "2024-02-07T00:00:00.000Z",
+          tag: "Design",
+          _id: "65c3531476ed5c48f9440965",
+        },
+      ],
+      createdAt: "2024-02-07T09:47:37.337Z",
+      updatedAt: "2024-02-07T09:53:24.079Z",
+      __v: 2,
+    },
+  ],
+  users: [
+    {
+      _id: "65c5f27fb5204a81bde86833",
+      name: "New User",
+      title: "Designer",
+      role: "Developer",
+      isActive: true,
+      createdAt: "2024-02-09T09:38:07.765Z",
+    },
+    {
+      _id: "65c202d4aa62f32ffd1303cc",
+      name: "Zeynep Kargı",
+      title: "Administrator",
+      role: "Admin",
+      createdAt: "2024-02-06T09:58:44.794Z",
+      isActive: true,
+    },
+  ],
+  tasks: {
+    todo: 6,
+    "in progress": 3,
+    completed: 1,
+  },
+};
+
+export const chartData = [
+  {
+    name: "High",
+    total: 2400,
+  },
+  {
+    name: "Medium",
+    total: 2210,
+  },
+  {
+    name: "Normal",
+    total: 3210,
+  },
+  {
+    name: "Low",
+    total: 2290,
+  },
+];
+
+
+
+export const tasks = [
+  {
+    _id: "65c5f12ab5204a81bde866a9",
+    title: "deneme",
+    date: "2024-02-09T00:00:00.000Z",
+    priority: "high",
+    stage: "todo",
+    team: [
+      {
+        _id: "65c202d4aa62f32ffd1303cc",
+        name: "Zeynep Kargı",
+        title: "Administrator",
+        email: "admin@gmail.com",
+      },
+    ],
+    activities: [],
+    subTasks: [
+      {
+        title: "Task manager youtube tutorial",
+        date: "2024-02-09T00:00:00.000Z",
+        tag: "tutorial",
+        _id: "65c5f153b5204a81bde866c8",
+      },
+    ],
+    createdAt: "2024-02-09T09:32:26.574Z",
+    updatedAt: "2024-02-09T09:36:53.339Z",
+    __v: 1,
+  },
+  {
+    _id: "65c5d547660756f6fd453a7a",
+    title: "Duplicate - Duplicate - Review Code Changes",
+    date: "2024-02-09T00:00:00.000Z",
+    priority: "medium",
+    stage: "in progress",
+    team: [
+    ],
+    activities: [
+      {
+        type: "started",
+        activity: "Project started",
+        date: "2024-02-09T09:16:56.623Z",
+        by: "65c202d4aa62f32ffd1303cc",
+        _id: "65c5f18bb5204a81bde866d1",
+      },
+      {
+        type: "commented",
+        activity: "i like coding!!",
+        date: "2024-02-09T09:16:56.623Z",
+        by: "65c202d4aa62f32ffd1303cc",
+        _id: "65c5f19eb5204a81bde866dd",
+      },
+      {
+        type: "bug",
+        activity: "bug found",
+        date: "2024-02-09T09:16:56.623Z",
+        by: "65c202d4aa62f32ffd1303cc",
+        _id: "65c5f1abb5204a81bde866eb",
+      },
+    ],
+    subTasks: [
+      {
+        title: "Blog App Admin Dashboard",
+        date: "2024-02-08T00:00:00.000Z",
+        tag: "Website App",
+        _id: "65c3535476ed5c48f9440973",
+      },
+    ],
+    createdAt: "2024-02-09T07:33:27.590Z",
+    updatedAt: "2024-02-09T09:36:10.386Z",
+    __v: 4,
+  },
+  {
+    _id: "65c46026af6ec0118be9407a",
+    title: "Website Project Proposal Review",
+    date: "2024-02-07T00:00:00.000Z",
+    priority: "high",
+    stage: "todo",
+    team: [
+      {
+        _id: "65c202d4aa62f32ffd1303cc",
+        name: "Zeynep Kargı",
+        title: "Administrator",
+        email: "admin@gmail.com",
+      },
+    ],
+    activities: [
+      {
+        type: "assigned",
+        activity: "Test activity. Let's go!!!",
+        date: "2024-02-08T17:55:34.353Z",
+        by: "65c202d4aa62f32ffd1303cc",
+        _id: "65c5188be1585cfa650b79c4",
+      },
+      {
+        type: "in progress",
+        activity: "Project is progress. Hiope to fin=ish soon!!",
+        date: "2024-02-08T17:55:34.353Z",
+        by: "65c202d4aa62f32ffd1303cc",
+        _id: "65c518dce1585cfa650b79da",
+      },
+      {
+        type: "bug",
+        activity: "Bug found in the code. Kindly check and fixed ASAP!!!",
+        date: "2024-02-08T18:13:14.717Z",
+        by: "65c202d4aa62f32ffd1303cc",
+        _id: "65c51a5e8064df97d208b392",
+      },
+      {
+        type: "commented",
+        activity: "Nice work. Let's finished hard!!!",
+        date: "2024-02-08T18:13:14.717Z",
+        by: "65c202d4aa62f32ffd1303cc",
+        _id: "65c51af08064df97d208b3b0",
+      },
+    ],
+    subTasks: [
+      {
+        title: "Blog App Dashboard",
+        date: "2024-02-06T00:00:00.000Z",
+        tag: "Design",
+        _id: "65c352e776ed5c48f944095c",
+      },
+      {
+        title: "Blog App Admin Dashboard",
+        date: "2024-02-07T00:00:00.000Z",
+        tag: "Design",
+        _id: "65c3531476ed5c48f9440965",
+      },
+    ],
+    createdAt: "2024-02-08T05:01:26.983Z",
+    updatedAt: "2024-02-09T06:51:15.005Z",
+    __v: 8,
+  },
+  {
+    _id: "65c45fb6af6ec0118be94052",
+    title: "Task Manager Youtube Video",
+    date: "2024-02-11T00:00:00.000Z",
+    priority: "medium",
+    stage: "completed",
+    team: [
+    ],
+    activities: [
+      {
+        type: "started",
+        activity: "Project completed!!",
+        date: "2024-02-08T18:13:14.717Z",
+        by: { _id: "65c202d4aa62f32ffd1303cc", name: "Codewave" },
+        _id: "65c51b998064dfd208b3f9",
+      },
+      {
+        type: "commented",
+        activity: "Project completed!!",
+        date: "2024-02-08T18:13:14.717Z",
+        by: { _id: "65c202d4aa62f32ffd1303cc", name: "Codewave" },
+        _id: "65c51b98064df97d208b3f9",
+      },
+      {
+        type: "completed",
+        activity: "Project completed!!",
+        date: "2024-02-08T18:13:14.717Z",
+        by: { _id: "65c202d4aa62f32ffd1303cc", name: "Codewave" },
+        _id: "65c51b998064df97d208b3f9",
+      },
+    ],
+    subTasks: [
+      {
+        title: "Blog App Admin Dashboard",
+        date: "2024-02-08T00:00:00.000Z",
+        tag: "Website App",
+        _id: "65c3535476ed5c48f9440973",
+      },
+    ],
+    createdAt: "2024-02-08T04:59:34.826Z",
+    updatedAt: "2024-02-09T06:51:15.005Z",
+    __v: 3,
+  },
+  {
+    _id: "65c4586f0548279012f8c256",
+    title: "Bug Fixing",
+    date: "2024-02-07T00:00:00.000Z",
+    priority: "high",
+    stage: "todo",
+    team: [
+      {
+        _id: "65c202d4aa62f32ffd1303cc",
+        name: "Zeynep Kargı",
+        title: "Administrator",
+        email: "admin@gmail.com",
+      },
+    ],
+    activities: [
+      {
+        type: "commented",
+        activity: "Great!!!",
+        date: "2024-02-08T18:13:14.717Z",
+        by: "65c202d4aa62f32ffd1303cc",
+        _id: "65c51b678064df97d208b3d6",
+      },
+    ],
+    subTasks: [
+      {
+        title: "Check Login code and fix bugs asap",
+        date: "2024-02-08T00:00:00.000Z",
+        tag: "Bug Fixing",
+        _id: "65c46074af6ec0118be94094",
+      },
+    ],
+    createdAt: "2024-02-08T04:28:31.966Z",
+    updatedAt: "2024-02-09T06:51:15.005Z",
+    __v: 3,
+  },
+  {
+    _id: "65c3c457fb9c6768ce4bc31a",
+    title: "Duplicate - Website Project Proposal",
+    date: "2024-02-07T17:55:13.218Z",
+    priority: "high",
+    stage: "todo",
+    team: [
+      {
+        _id: "65c202d4aa62f32ffd1303cc",
+        name: "Zeynep Kargı",
+        title: "Administrator",
+        email: "admin@gmail.com",
+      },
+    ],
+    activities: [],
+    subTasks: [
+      {
+        title: "Blog App Dashboard",
+        date: "2024-02-06T00:00:00.000Z",
+        tag: "Design",
+        _id: "65c352e776ed5c48f944095c",
+      },
+      {
+        title: "Blog App Admin Dashboard",
+        date: "2024-02-07T00:00:00.000Z",
+        tag: "Design",
+        _id: "65c3531476ed5c48f9440965",
+      },
+    ],
+    createdAt: "2024-02-07T17:56:39.969Z",
+    updatedAt: "2024-02-09T06:51:15.005Z",
+    __v: 1,
+  },
+  {
+    _id: "65c3c439fb9c6768ce4bc308",
+    title: "Duplicate - Review Code Changes",
+    date: "2024-02-07T17:55:13.218Z",
+    priority: "medium",
+    stage: "in progress",
+    team: [
+    ],
+    activities: [],
+    subTasks: [
+      {
+        title: "Blog App Admin Dashboard",
+        date: "2024-02-08T00:00:00.000Z",
+        tag: "Website App",
+        _id: "65c3535476ed5c48f9440973",
+      },
+    ],
+    createdAt: "2024-02-07T17:56:09.174Z",
+    updatedAt: "2024-02-07T17:56:09.456Z",
+    __v: 1,
+  },
+  {
+    _id: "65c3c21f55ae9b2f7666e86c",
+    title: "Duplicate - Website Project Proposal",
+    date: "2024-02-07T17:46:56.040Z",
+    priority: "normal",
+    stage: "todo",
+    team: [
+      {
+        _id: "65c202d4aa62f32ffd1303cc",
+        name: "Zeynep Kargı",
+        title: "Administrator",
+        email: "admin@gmail.com",
+      },
+    ],
+    activities: [],
+    subTasks: [
+      {
+        title: "Blog App Dashboard",
+        date: "2024-02-06T00:00:00.000Z",
+        tag: "Design",
+        _id: "65c352e776ed5c48f944095c",
+      },
+      {
+        title: "Blog App Admin Dashboard",
+        date: "2024-02-07T00:00:00.000Z",
+        tag: "Design",
+        _id: "65c3531476ed5c48f9440965",
+      },
+    ],
+    createdAt: "2024-02-07T17:47:11.560Z",
+    updatedAt: "2024-02-07T17:47:11.972Z",
+    __v: 1,
+  },
+  {
+    _id: "65c352b376ed5c48f9440955",
+    title: "Review Code Changes",
+    date: "2024-02-05T00:00:00.000Z",
+    priority: "medium",
+    stage: "in progress",
+    team: [
+    ],
+    activities: [],
+    subTasks: [
+      {
+        title: "Blog App Admin Dashboard",
+        date: "2024-02-08T00:00:00.000Z",
+        tag: "Website App",
+        _id: "65c3535476ed5c48f9440973",
+      },
+    ],
+    createdAt: "2024-02-07T09:51:47.149Z",
+    updatedAt: "2024-02-07T09:54:28.645Z",
+    __v: 1,
+  },
+  {
+    _id: "65c351b976ed5c48f9440947",
+    title: "Website Project Proposal",
+    date: "2024-02-07T00:00:00.000Z",
+    priority: "high",
+    stage: "todo",
+    team: [
+      {
+        _id: "65c202d4aa62f32ffd1303cc",
+        name: "Zeynep Kargı",
+        title: "Administrator",
+        email: "admin@gmail.com",
+      },
+    ],
+    activities: [],
+    subTasks: [
+      {
+        title: "Blog App Dashboard",
+        date: "2024-02-06T00:00:00.000Z",
+        tag: "Design",
+        _id: "65c352e776ed5c48f944095c",
+      },
+      {
+        title: "Blog App Admin Dashboard",
+        date: "2024-02-07T00:00:00.000Z",
+        tag: "Design",
+        _id: "65c3531476ed5c48f9440965",
+      },
+    ],
+    createdAt: "2024-02-07T09:47:37.337Z",
+    updatedAt: "2024-02-07T09:53:24.079Z",
+    __v: 2,
+  },
+];
+
+export const user = {
+  _id: "662f32ffd1303cc",
+  name: "Zeynep",
+  title: "Administrator",
+  role: "Admin",
+  email: "admin@mts.com",
+  isAdmin: true,
+  tasks: [],
+  createdAt: "2024-02-06T09:58:44.794Z",
+  updatedAt: "2024-02-07T06:13:26.757Z",
+  __v: 0,
+  isActive: true,
+};
+

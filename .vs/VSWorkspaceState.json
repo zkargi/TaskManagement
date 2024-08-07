@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\api\\serverApi",
+    "\\api\\serverApi\\serverApi",
+    "\\api\\serverApi\\serverApi\\Data",
+    "\\client\\src",
+    "\\client\\src\\components",
+    "\\client\\src\\pages",
+    "\\serverrr",
+    "\\serverrr\\controllers",
+    "\\serverrr\\middlewares",
+    "\\serverrr\\models"
+  ],
+  "SelectedNode": "\\serverrr\\package.json",
+  "PreviewInSolutionExplorer": false
+}
